@@ -1,0 +1,28 @@
+:root {
+    --main-body-color: #cc322a;
+}
+
+body {
+    background-color: var(--main-body-color, red);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.generate-btn {
+    font-family: "Electrolize", sans-serif;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+}
+

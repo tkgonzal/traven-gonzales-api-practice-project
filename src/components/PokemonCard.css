@@ -1,0 +1,48 @@
+:root {
+    --card-bg-color: #a7b9d3;
+    --sprite-bg-color: #fff;
+    --main-border-color: #000;
+}
+
+.pokemon-card {
+    font-family: "Play", sans-serif;
+    background-color: var(--card-bg-color, aliceblue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border: solid var(--main-border-color, black) .5rem;
+    border-radius: .5rem;
+    width: 50rem;
+}
+
+.pokemon-card--name {
+    font-size: 3rem;
+    margin: .5rem;
+}
+
+.pokemon-card--genus {
+    margin: 0rem 0rem .5rem 0rem;
+}
+
+.pokemon-card--sprite {
+    height: 20rem;
+    background-color: var(--sprite-bg-color, white);
+    border: solid var(--main-border-color, black) .125rem;
+    border-radius: 1rem;
+}
+
+.pokemon-card--type-sprite {
+    height: 1.5rem;
+}
+
+.pokemon-card--description {
+    text-align: center;
+}
+
+.pokemon-card--types {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
